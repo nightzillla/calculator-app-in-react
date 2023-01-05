@@ -95,13 +95,13 @@ return (
           <NumberFormatBase
             value={input}
             displayType={"text"}
-            thousandSeparator={true}
+            thousandseparator="true"
           />
           ) : (
             <NumberFormatBase
             value={preState}
             displayType={"text"}
-            thousandSeparator={true}
+            thousandseparator="true"
           />
         )}
       </div>
